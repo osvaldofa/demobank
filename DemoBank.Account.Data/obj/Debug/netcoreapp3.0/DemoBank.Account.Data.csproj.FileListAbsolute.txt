@@ -1,0 +1,8 @@
+C:\Development\Test\DemoBank\DemoBank.Account\DemoBank.Account.Data\bin\Debug\netcoreapp3.0\DemoBank.Account.Data.deps.json
+C:\Development\Test\DemoBank\DemoBank.Account\DemoBank.Account.Data\bin\Debug\netcoreapp3.0\DemoBank.Account.Data.dll
+C:\Development\Test\DemoBank\DemoBank.Account\DemoBank.Account.Data\bin\Debug\netcoreapp3.0\DemoBank.Account.Data.pdb
+C:\Development\Test\DemoBank\DemoBank.Account\DemoBank.Account.Data\obj\Debug\netcoreapp3.0\DemoBank.Account.Data.csprojAssemblyReference.cache
+C:\Development\Test\DemoBank\DemoBank.Account\DemoBank.Account.Data\obj\Debug\netcoreapp3.0\DemoBank.Account.Data.AssemblyInfoInputs.cache
+C:\Development\Test\DemoBank\DemoBank.Account\DemoBank.Account.Data\obj\Debug\netcoreapp3.0\DemoBank.Account.Data.AssemblyInfo.cs
+C:\Development\Test\DemoBank\DemoBank.Account\DemoBank.Account.Data\obj\Debug\netcoreapp3.0\DemoBank.Account.Data.dll
+C:\Development\Test\DemoBank\DemoBank.Account\DemoBank.Account.Data\obj\Debug\netcoreapp3.0\DemoBank.Account.Data.pdb

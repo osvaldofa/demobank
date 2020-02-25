@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DemoBank.API.Presentation</name>
+    </assembly>
+    <members>
+        <member name="T:DemoBank.Account.Presentation.Controllers.AccountController">
+            <summary>
+            Controller responsible for manage Account API.
+            </summary>
+        </member>
+        <member name="M:DemoBank.Account.Presentation.Controllers.AccountController.#ctor(DemoBank.Account.Domain.Interfaces.IAccountService,Microsoft.Extensions.Logging.ILogger{DemoBank.Account.Presentation.Controllers.AccountController})">
+            <summary>
+            Constructor method invoking dependency injection objects.
+            </summary>
+            <param name="accountService">Account Service object.</param>
+        </member>
+        <member name="M:DemoBank.Account.Presentation.Controllers.AccountController.CreateNewAccountForExistingUser(DemoBank.Account.Infrastructure.Data.Models.NewAccount)">
+            <summary>
+            POST endpoint for creation of new account for existing users.
+            </summary>
+            <param name="account">Account data (CustomerId and InitialBalance) for the new account.</param>
+            <returns>Result of account creation (account number).</returns>
+        </member>
+        <member name="M:DemoBank.Account.Presentation.Controllers.AccountController.GetAccount(System.Int64)">
+            <summary>
+            Returns an Account object searchig by Account Number.
+            </summary>
+            <param name="accountNumber"></param>
+            <returns>Account information.</returns>
+        </member>
+        <member name="T:DemoBank.Account.Presentation.Controllers.TransactionController">
+            <summary>
+            Controller responsible for manage Transactions API.
+            </summary>
+        </member>
+        <member name="M:DemoBank.Account.Presentation.Controllers.TransactionController.#ctor(DemoBank.Account.Domain.Interfaces.ITransactionServices,Microsoft.Extensions.Logging.ILogger{DemoBank.Account.Presentation.Controllers.TransactionController})">
+            <summary>
+            Constructor method for Transaction Controller.
+            </summary>
+            <param name="transactionServices">Transaction services instantiated by dependency injection.</param>
+        </member>
+        <member name="M:DemoBank.Account.Presentation.Controllers.TransactionController.CreateTransaction(DemoBank.Account.Infrastructure.Data.Models.TransactionModel)">
+            <summary>
+            Create a new transaction.
+            </summary>
+            <param name="transaction">Transaction data.</param>
+            <returns>Transaction Id.</returns>
+        </member>
+        <member name="M:DemoBank.Account.Presentation.Controllers.TransactionController.GetTransactionsByAccountNumber(System.Int64)">
+            <summary>
+            List all transactions for an specific account.
+            </summary>
+            <param name="accountNumber">Account number.</param>
+            <returns>List of all transactions.</returns>
+        </member>
+        <member name="M:DemoBank.Account.Presentation.Bootstrapper.ConfigureInjections(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Configure dependency injections.
+            </summary>
+            <param name="service">Service collection instantiated on StartUp class.</param>
+        </member>
+    </members>
+</doc>

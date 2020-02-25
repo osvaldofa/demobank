@@ -1,0 +1,13 @@
+C:\Development\Test\DemoBank\DemoBank.Account\DemoBank.Account.Domain\bin\Debug\netcoreapp2.2\DemoBank.Account.Domain.deps.json
+C:\Development\Test\DemoBank\DemoBank.Account\DemoBank.Account.Domain\bin\Debug\netcoreapp2.2\DemoBank.Account.Domain.dll
+C:\Development\Test\DemoBank\DemoBank.Account\DemoBank.Account.Domain\bin\Debug\netcoreapp2.2\DemoBank.Account.Domain.pdb
+C:\Development\Test\DemoBank\DemoBank.Account\DemoBank.Account.Domain\bin\Debug\netcoreapp2.2\DemoBank.Account.Infrastructure.Data.dll
+C:\Development\Test\DemoBank\DemoBank.Account\DemoBank.Account.Domain\bin\Debug\netcoreapp2.2\DemoBank.Account.Infrastructure.Data.pdb
+C:\Development\Test\DemoBank\DemoBank.Account\DemoBank.Account.Domain\obj\Debug\netcoreapp2.2\DemoBank.Account.Domain.csprojAssemblyReference.cache
+C:\Development\Test\DemoBank\DemoBank.Account\DemoBank.Account.Domain\obj\Debug\netcoreapp2.2\DemoBank.Account.Domain.AssemblyInfoInputs.cache
+C:\Development\Test\DemoBank\DemoBank.Account\DemoBank.Account.Domain\obj\Debug\netcoreapp2.2\DemoBank.Account.Domain.AssemblyInfo.cs
+C:\Development\Test\DemoBank\DemoBank.Account\DemoBank.Account.Domain\obj\Debug\netcoreapp2.2\DemoBank.Account.Domain.csproj.CopyComplete
+C:\Development\Test\DemoBank\DemoBank.Account\DemoBank.Account.Domain\obj\Debug\netcoreapp2.2\DemoBank.Account.Domain.dll
+C:\Development\Test\DemoBank\DemoBank.Account\DemoBank.Account.Domain\obj\Debug\netcoreapp2.2\DemoBank.Account.Domain.pdb
+C:\Development\Test\DemoBank\DemoBank.Account\DemoBank.Account.Domain\bin\Debug\netcoreapp2.2\DemoBank.CrossCutting.dll
+C:\Development\Test\DemoBank\DemoBank.Account\DemoBank.Account.Domain\bin\Debug\netcoreapp2.2\DemoBank.CrossCutting.pdb

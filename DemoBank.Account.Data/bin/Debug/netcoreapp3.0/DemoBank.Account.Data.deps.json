@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "DemoBank.Account.Data/1.0.0": {
+        "runtime": {
+          "DemoBank.Account.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DemoBank.Account.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

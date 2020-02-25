@@ -3,6 +3,7 @@ using DemoBank.Account.Domain.Services;
 using DemoBank.Account.Infrastructure.Data.Models;
 using DemoBank.Account.Infrastructure.Data.Repositories;
 using DemoBank.Account.Presentation.Controllers;
+using DemoBank.CrossCutting.Enumerators;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -127,6 +128,53 @@ namespace DemoBank.Test
             this.accountRepository.GetById(1101).Returns(account);
 
             Assert.AreEqual(null, this.accountController.GetAccount(1100).Value);
+        }
+
+        /// <summary>
+        /// Test the creation of a new transaction for an existent account.
+        /// </summary>
+        [TestMethod]
+        public void TestCreateTransactionValidDeposit()
+        {
+            // Set account repository mock.
+            CustomerModel customer = new CustomerModel(1010, "John", "Doe");
+            AccountModel account = new AccountModel(1101, customer, 100);            
+
+            TransactionModel transaction = new TransactionModel();
+            transaction.DestinationAccount = account;
+            transaction.TransactionType = TransactionTypes.DEPOSIT;
+            transaction.Value = 100;
+
+            this.accountRepository.GetById(1101).Returns(account);
+            this.transactionRepository.Save(transaction).ReturnsForAnyArgs(11001);
+
+            Assert.IsInstanceOfType(this.transactionController.CreateTransaction(transaction).Value, typeof(CreatedResult));
+        }
+
+        /// <summary>
+        /// Test the creation of a new transaction for a non existent account.
+        /// </summary>
+        [TestMethod]
+        public void TestCreateTransactionValidDepositInInvalidAccount()
+        {
+            // Set account repository mock.
+            CustomerModel customer = new CustomerModel(1010, "John", "Doe");
+            AccountModel account = new AccountModel(1101, customer, 100);
+
+            TransactionModel transaction = new TransactionModel();
+            transaction.DestinationAccount = account;
+            transaction.TransactionType = TransactionTypes.DEPOSIT;
+            transaction.Value = 100;
+                        
+            this.transactionRepository.Save(transaction).ReturnsForAnyArgs(11001);
+
+            Assert.IsNotInstanceOfType(this.transactionController.CreateTransaction(transaction).Value, typeof(CreatedResult));
+        }
+
+        [TestMethod]
+        public void TestGetTransactionsByAccountNumber()
+        { 
+
         }
 
         #endregion

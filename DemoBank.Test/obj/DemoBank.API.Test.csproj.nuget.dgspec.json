@@ -4,12 +4,12 @@
     "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Test\\DemoBank.API.Test.csproj": {}
   },
   "projects": {
-    "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Data\\DemoBank.API.Infrastructure.Data.csproj": {
+    "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Data\\DemoBank.Infrastructure.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Data\\DemoBank.API.Infrastructure.Data.csproj",
-        "projectName": "DemoBank.API.Infrastructure.Data",
-        "projectPath": "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Data\\DemoBank.API.Infrastructure.Data.csproj",
+        "projectUniqueName": "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Data\\DemoBank.Infrastructure.Data.csproj",
+        "projectName": "DemoBank.Infrastructure.Data",
+        "projectPath": "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Data\\DemoBank.Infrastructure.Data.csproj",
         "packagesPath": "C:\\Users\\o.ferreira.alves\\.nuget\\packages\\",
         "outputPath": "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Data\\obj\\",
         "projectStyle": "PackageReference",
@@ -67,12 +67,12 @@
         }
       }
     },
-    "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Domain\\DemoBank.API.Domain.csproj": {
+    "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Domain\\DemoBank.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Domain\\DemoBank.API.Domain.csproj",
-        "projectName": "DemoBank.API.Domain",
-        "projectPath": "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Domain\\DemoBank.API.Domain.csproj",
+        "projectUniqueName": "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Domain\\DemoBank.Domain.csproj",
+        "projectName": "DemoBank.Domain",
+        "projectPath": "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Domain\\DemoBank.Domain.csproj",
         "packagesPath": "C:\\Users\\o.ferreira.alves\\.nuget\\packages\\",
         "outputPath": "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Domain\\obj\\",
         "projectStyle": "PackageReference",
@@ -94,8 +94,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Data\\DemoBank.API.Infrastructure.Data.csproj": {
-                "projectPath": "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Data\\DemoBank.API.Infrastructure.Data.csproj"
+              "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Data\\DemoBank.Infrastructure.Data.csproj": {
+                "projectPath": "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Data\\DemoBank.Infrastructure.Data.csproj"
               }
             }
           }
@@ -130,12 +130,12 @@
         }
       }
     },
-    "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Presentation\\DemoBank.API.Presentation.csproj": {
+    "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Presentation\\DemoBank.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Presentation\\DemoBank.API.Presentation.csproj",
-        "projectName": "DemoBank.API.Presentation",
-        "projectPath": "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Presentation\\DemoBank.API.Presentation.csproj",
+        "projectUniqueName": "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Presentation\\DemoBank.API.csproj",
+        "projectName": "DemoBank.API",
+        "projectPath": "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Presentation\\DemoBank.API.csproj",
         "packagesPath": "C:\\Users\\o.ferreira.alves\\.nuget\\packages\\",
         "outputPath": "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Presentation\\obj\\",
         "projectStyle": "PackageReference",
@@ -157,11 +157,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Data\\DemoBank.API.Infrastructure.Data.csproj": {
-                "projectPath": "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Data\\DemoBank.API.Infrastructure.Data.csproj"
+              "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Data\\DemoBank.Infrastructure.Data.csproj": {
+                "projectPath": "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Data\\DemoBank.Infrastructure.Data.csproj"
               },
-              "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Domain\\DemoBank.API.Domain.csproj": {
-                "projectPath": "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Domain\\DemoBank.API.Domain.csproj"
+              "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Domain\\DemoBank.Domain.csproj": {
+                "projectPath": "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Domain\\DemoBank.Domain.csproj"
               }
             }
           }
@@ -297,14 +297,14 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Data\\DemoBank.API.Infrastructure.Data.csproj": {
-                "projectPath": "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Data\\DemoBank.API.Infrastructure.Data.csproj"
+              "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Data\\DemoBank.Infrastructure.Data.csproj": {
+                "projectPath": "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Data\\DemoBank.Infrastructure.Data.csproj"
               },
-              "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Domain\\DemoBank.API.Domain.csproj": {
-                "projectPath": "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Domain\\DemoBank.API.Domain.csproj"
+              "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Domain\\DemoBank.Domain.csproj": {
+                "projectPath": "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Domain\\DemoBank.Domain.csproj"
               },
-              "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Presentation\\DemoBank.API.Presentation.csproj": {
-                "projectPath": "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Presentation\\DemoBank.API.Presentation.csproj"
+              "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Presentation\\DemoBank.API.csproj": {
+                "projectPath": "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Presentation\\DemoBank.API.csproj"
               }
             }
           }

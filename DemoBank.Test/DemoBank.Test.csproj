@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
@@ -15,9 +15,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DemoBank.Account.Data\DemoBank.API.Infrastructure.Data.csproj" />
-    <ProjectReference Include="..\DemoBank.Account.Domain\DemoBank.API.Domain.csproj" />
-    <ProjectReference Include="..\DemoBank.Account.Presentation\DemoBank.API.Presentation.csproj" />
+    <ProjectReference Include="..\DemoBank.Account.Data\DemoBank.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\DemoBank.Account.Domain\DemoBank.Domain.csproj" />
+    <ProjectReference Include="..\DemoBank.Account.Presentation\DemoBank.API.csproj" />
   </ItemGroup>
 
 </Project>

@@ -16,8 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DemoBank.Account.Data\DemoBank.API.Infrastructure.Data.csproj" />
-    <ProjectReference Include="..\DemoBank.Account.Domain\DemoBank.API.Domain.csproj" />
+    <ProjectReference Include="..\DemoBank.Account.Data\DemoBank.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\DemoBank.Account.Domain\DemoBank.Domain.csproj" />
   </ItemGroup>
 
 </Project>

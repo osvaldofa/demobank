@@ -3,27 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoBank.API.Presentation", "DemoBank.Account.Presentation\DemoBank.API.Presentation.csproj", "{25C5C6B1-F0F5-4D0C-B24B-0ADA8A37CC74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoBank.API", "DemoBank.Account.Presentation\DemoBank.API.csproj", "{25C5C6B1-F0F5-4D0C-B24B-0ADA8A37CC74}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{D03BCA90-BF86-4A92-80D2-413727AF011D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{CB52E26C-14B3-4B44-9BCA-9C8F80641BC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoBank.API.Domain", "DemoBank.Account.Domain\DemoBank.API.Domain.csproj", "{5FF4C4EA-3126-43CA-ABA4-F7F36D096CE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoBank.Domain", "DemoBank.Account.Domain\DemoBank.Domain.csproj", "{5FF4C4EA-3126-43CA-ABA4-F7F36D096CE6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infrastructure", "3 - Infrastructure", "{5D5ECF14-7298-4827-A435-D09873F3EA00}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{2EEAD981-9D3E-4997-B05F-9B3B157DD145}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoBank.API.Infrastructure.Data", "DemoBank.Account.Data\DemoBank.API.Infrastructure.Data.csproj", "{AFA609ED-51EB-42C4-854B-B63C6064482A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoBank.Infrastructure.Data", "DemoBank.Account.Data\DemoBank.Infrastructure.Data.csproj", "{AFA609ED-51EB-42C4-854B-B63C6064482A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Crosscutting", "4 - Crosscutting", "{06D47E50-5D6F-4CCD-9051-CC2952C1B42B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoBank.CrossCutting", "DemoBank.CrossCutting\DemoBank.CrossCutting.csproj", "{3E2FCABF-199B-4FDF-969C-33140C6FFCEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoBank.CrossCutting", "DemoBank.CrossCutting\DemoBank.CrossCutting.csproj", "{3E2FCABF-199B-4FDF-969C-33140C6FFCEC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Test", "5 - Test", "{CB70B2C2-97A8-4A2F-9CEC-09D2187E1D14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoBank.API.Test", "DemoBank.Test\DemoBank.API.Test.csproj", "{DCD33E48-8621-46D7-AF53-A913F8E5C5BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoBank.Test", "DemoBank.Test\DemoBank.Test.csproj", "{DCD33E48-8621-46D7-AF53-A913F8E5C5BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DA77BA63-3C74-4CFB-88D8-EE05A9C6679C}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile.txt = Dockerfile.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

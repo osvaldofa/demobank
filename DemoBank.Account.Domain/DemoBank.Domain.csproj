@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DemoBank.Account.Data\DemoBank.API.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\DemoBank.Account.Data\DemoBank.Infrastructure.Data.csproj" />
   </ItemGroup>
 
 </Project>

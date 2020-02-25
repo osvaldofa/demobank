@@ -49,7 +49,7 @@ namespace DemoBank.Account.Domain.Services
 
         private long CreateDepositTransaction(TransactionModel transaction)
         {
-            if (AccountExists(transaction?.DestinationAccount))
+            if (AccountExists(transaction?.DestinationAccount) && transaction.Value > 0)
             {
                 // Transaction registration.
                 transaction.When = DateTime.Now;

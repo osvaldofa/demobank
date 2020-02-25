@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "DemoBank.Infrastructure.Data/1.0.0": {
+        "dependencies": {
+          "DemoBank.CrossCutting": "1.0.0"
+        },
+        "runtime": {
+          "DemoBank.Infrastructure.Data.dll": {}
+        }
+      },
+      "DemoBank.CrossCutting/1.0.0": {
+        "runtime": {
+          "DemoBank.CrossCutting.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DemoBank.Infrastructure.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DemoBank.CrossCutting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

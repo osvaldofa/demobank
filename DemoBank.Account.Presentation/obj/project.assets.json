@@ -4535,32 +4535,6 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
-      "DemoBank.API.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.2",
-        "dependencies": {
-          "DemoBank.API.Infrastructure.Data": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/DemoBank.API.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DemoBank.API.Domain.dll": {}
-        }
-      },
-      "DemoBank.API.Infrastructure.Data/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.2",
-        "dependencies": {
-          "DemoBank.CrossCutting": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/DemoBank.API.Infrastructure.Data.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DemoBank.API.Infrastructure.Data.dll": {}
-        }
-      },
       "DemoBank.CrossCutting/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
@@ -4569,6 +4543,32 @@
         },
         "runtime": {
           "bin/placeholder/DemoBank.CrossCutting.dll": {}
+        }
+      },
+      "DemoBank.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "DemoBank.Infrastructure.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DemoBank.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DemoBank.Domain.dll": {}
+        }
+      },
+      "DemoBank.Infrastructure.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "DemoBank.CrossCutting": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DemoBank.Infrastructure.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DemoBank.Infrastructure.Data.dll": {}
         }
       }
     }
@@ -12394,26 +12394,26 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
-    "DemoBank.API.Domain/1.0.0": {
-      "type": "project",
-      "path": "../DemoBank.Account.Domain/DemoBank.API.Domain.csproj",
-      "msbuildProject": "../DemoBank.Account.Domain/DemoBank.API.Domain.csproj"
-    },
-    "DemoBank.API.Infrastructure.Data/1.0.0": {
-      "type": "project",
-      "path": "../DemoBank.Account.Data/DemoBank.API.Infrastructure.Data.csproj",
-      "msbuildProject": "../DemoBank.Account.Data/DemoBank.API.Infrastructure.Data.csproj"
-    },
     "DemoBank.CrossCutting/1.0.0": {
       "type": "project",
       "path": "../DemoBank.CrossCutting/DemoBank.CrossCutting.csproj",
       "msbuildProject": "../DemoBank.CrossCutting/DemoBank.CrossCutting.csproj"
+    },
+    "DemoBank.Domain/1.0.0": {
+      "type": "project",
+      "path": "../DemoBank.Account.Domain/DemoBank.Domain.csproj",
+      "msbuildProject": "../DemoBank.Account.Domain/DemoBank.Domain.csproj"
+    },
+    "DemoBank.Infrastructure.Data/1.0.0": {
+      "type": "project",
+      "path": "../DemoBank.Account.Data/DemoBank.Infrastructure.Data.csproj",
+      "msbuildProject": "../DemoBank.Account.Data/DemoBank.Infrastructure.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
-      "DemoBank.API.Domain >= 1.0.0",
-      "DemoBank.API.Infrastructure.Data >= 1.0.0",
+      "DemoBank.Domain >= 1.0.0",
+      "DemoBank.Infrastructure.Data >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
@@ -12427,11 +12427,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Presentation\\DemoBank.API.Presentation.csproj",
-      "projectName": "DemoBank.API.Presentation",
-      "projectPath": "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Presentation\\DemoBank.API.Presentation.csproj",
+      "projectUniqueName": "C:\\Development\\Test\\DemoBank\\DemoBank\\DemoBank.Account.Presentation\\DemoBank.API.csproj",
+      "projectName": "DemoBank.API",
+      "projectPath": "C:\\Development\\Test\\DemoBank\\DemoBank\\DemoBank.Account.Presentation\\DemoBank.API.csproj",
       "packagesPath": "C:\\Users\\o.ferreira.alves\\.nuget\\packages\\",
-      "outputPath": "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Presentation\\obj\\",
+      "outputPath": "C:\\Development\\Test\\DemoBank\\DemoBank\\DemoBank.Account.Presentation\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12451,11 +12451,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Data\\DemoBank.API.Infrastructure.Data.csproj": {
-              "projectPath": "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Data\\DemoBank.API.Infrastructure.Data.csproj"
+            "C:\\Development\\Test\\DemoBank\\DemoBank\\DemoBank.Account.Data\\DemoBank.Infrastructure.Data.csproj": {
+              "projectPath": "C:\\Development\\Test\\DemoBank\\DemoBank\\DemoBank.Account.Data\\DemoBank.Infrastructure.Data.csproj"
             },
-            "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Domain\\DemoBank.API.Domain.csproj": {
-              "projectPath": "C:\\Development\\Test\\DemoBank\\DemoBank.Account\\DemoBank.Account.Domain\\DemoBank.API.Domain.csproj"
+            "C:\\Development\\Test\\DemoBank\\DemoBank\\DemoBank.Account.Domain\\DemoBank.Domain.csproj": {
+              "projectPath": "C:\\Development\\Test\\DemoBank\\DemoBank\\DemoBank.Account.Domain\\DemoBank.Domain.csproj"
             }
           }
         }
